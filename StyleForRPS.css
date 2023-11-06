@@ -1,0 +1,71 @@
+body{
+    background-color: #3e6464;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 70px;
+}
+
+p{
+    font-size: 1.3rem;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    /* border: none; */
+    font-size: 3rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    /* background-color: #82d4d4; */
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    
+}
+
+#rock{
+    background-color: #82d4d4;
+}
+
+#paper{
+    background-color: rgb(72, 170, 69);
+}
+
+#scissors{
+    background-color: rgb(197, 98, 98);
+}
+
+.rock-img{
+    height: 50px;
+    width: 55px;
+}
+
+.paper-img{
+    height: 50px;
+    width: 55px;
+}
+
+.scissors-img{
+    height: 50px;
+    width: 55px;
+}
+
+#user-score{
+    color: rgb(30, 173, 30);
+}
+
+#computer-score{
+    color: rgb(138, 5, 5);
+}
